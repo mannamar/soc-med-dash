@@ -26,9 +26,10 @@ export default function Header() {
                     <p className="subTitle">Total Followers: 23,004</p>
                 </div>
 
+                <hr></hr>
                 <div className="switchCont d-flex">
                     <p className="switchText">Dark Mode</p>
-                    <Form.Switch onChange={toggleTheme}/>
+                    <Form.Switch onChange={toggleTheme} className="toggle"/>
                 </div>
                 
             </Container> 
