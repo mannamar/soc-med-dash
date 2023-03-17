@@ -19,6 +19,7 @@
   --toggle-bg: black;
   --toggle-cir: hsl(225, 100%, 98%);
   --dark-text: hsl(228, 16%, 56%);
+  --card-hov-bg: hsl(228, 29%, 90%);
 }
 
 [data-theme="dark"] {
@@ -32,6 +33,7 @@
   --toggle-bg: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
   --toggle-cir: hsl(232, 19%, 15%);
   --dark-text: hsl(228, 34%, 66%);
+  --card-hov-bg: hsl(230, 26%, 27%);
 }
 
 body {
@@ -99,7 +101,7 @@ p {
 @media (hover: hover) {
   .bigCard:hover,
   .smallCard:hover {
-    background-color: hsl(228, 30%, 87%);
+    background-color: var(--card-hov-bg);
     cursor: pointer;
   }
 }
