@@ -15,6 +15,8 @@
   --gray-text: hsl(228, 12%, 44%);
   --ov-text: hsl(228, 12%, 44%);
   --top-bg-color: hsl(225, 100%, 98%);
+
+  --toggle-bg: black;
 }
 
 [data-theme="dark"] {
@@ -24,6 +26,8 @@
   --gray-text: hsl(228, 34%, 66%);
   --ov-text: white;
   --top-bg-color: hsl(232, 19%, 15%);
+
+  --toggle-bg: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 }
 
 body {

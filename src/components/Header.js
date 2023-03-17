@@ -1,6 +1,7 @@
 import './Header.css';
 import { Button, Container, Form } from 'react-bootstrap';
 import { useState } from 'react';
+import Switch from './Switch';
 
 export default function Header() {
 
@@ -29,7 +30,7 @@ export default function Header() {
                 <hr></hr>
                 <div className="switchCont d-flex">
                     <p className="switchText">Dark Mode</p>
-                    <Form.Switch onChange={toggleTheme} className="toggle"/>
+                    <Switch function={toggleTheme} className="toggle"/>
                 </div>
                 
             </Container> 
