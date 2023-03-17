@@ -1,7 +1,21 @@
 import './Header.css';
-import { Container, Form } from 'react-bootstrap';
+import { Button, Container, Form } from 'react-bootstrap';
+import { useState } from 'react';
 
 export default function Header() {
+
+    const [isDark, setIsDark] = useState(false);
+
+    function toggleTheme() {
+        console.log("clicked");
+        if (isDark) {
+            document.documentElement.setAttribute("data-theme", "light");
+        } else {
+            document.documentElement.setAttribute("data-theme", "dark");
+        }
+        setIsDark(!isDark);
+    }
+
     return (
         <Container className="headCont d-flex justify-content-between">
 
@@ -12,7 +26,7 @@ export default function Header() {
 
             <div className="switchCont d-flex">
                 <p className="switchText">Dark Mode</p>
-                <Form.Switch/>
+                <Form.Switch onChange={toggleTheme}/>
             </div>
             
         </Container>
