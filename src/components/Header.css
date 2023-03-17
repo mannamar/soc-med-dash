@@ -25,7 +25,7 @@
 
 .switchText {
     font-weight: 700;
-    color: var(--gray-text);
+    color: var(--dark-text);
 }
 
 .toggle {

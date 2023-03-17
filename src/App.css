@@ -17,6 +17,8 @@
   --top-bg-color: hsl(225, 100%, 98%);
 
   --toggle-bg: black;
+  --toggle-cir: hsl(225, 100%, 98%);
+  --dark-text: hsl(228, 16%, 56%);
 }
 
 [data-theme="dark"] {
@@ -28,6 +30,8 @@
   --top-bg-color: hsl(232, 19%, 15%);
 
   --toggle-bg: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  --toggle-cir: hsl(232, 19%, 15%);
+  --dark-text: white;
 }
 
 body {
