@@ -1,0 +1,47 @@
+.smallCard {
+    background-color: var(--card-bg);
+    height: 125px;
+    width: 100%;
+    /* border-top: 4px solid var(--facebook); */
+    border-radius: 4px;
+}
+
+.topBox {
+    width: 100%;
+    padding-left: 22px;
+    padding-right: 29px;
+    padding-top: 29px;
+}
+
+.smallTxt {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: var(--gray-text);
+}
+
+.botBox {
+    width: 100%;
+    padding-left: 22px;
+    padding-right: 29px;
+    padding-top: 20px;
+}
+
+.smallNum {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.arrow {
+    height: 4px;
+}
+
+.perChangeNum {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding-left: 3px;
+}

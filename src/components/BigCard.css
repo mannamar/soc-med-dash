@@ -1,0 +1,57 @@
+.bigCard {
+    background-color: var(--card-bg);
+    height: 212px;
+    width: 100%;
+    /* border-top: 4px solid var(--facebook); */
+    border-radius: 4px;
+}
+
+.usernameBox {
+    padding-top: 28px;
+}
+
+.icon {
+    height: 20px;
+}
+
+.userTxt {
+    padding-left: 6px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+    color: var(--gray-text);
+}
+
+.folNum {
+    padding-top: 27px;
+    font-family: 'Inter', sans-serif;
+    font-size: 52px;
+    line-height: 52px;
+    font-weight: 700;
+}
+
+.folTxt {
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+    color: var(--gray-text);
+    letter-spacing: 4px;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.arrow {
+    height: 4px;
+}
+
+.folBox {
+    padding-top: 23px;
+}
+
+.folChangeNum {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding-left: 5px;
+}
+

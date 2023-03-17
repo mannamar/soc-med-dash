@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --gray-text: hsl(228, 12%, 44%);
+    --card-bg: hsl(227, 47%, 96%);
+    --facebook: hsl(208, 92%, 53%);
+    --green-text: hsl(163, 72%, 41%);
+    --red-text: hsl(356, 69%, 56%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+[data-them="dark"] {
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.green-text {
+  color: var(--green-text);
 }
 
-.App-link {
-  color: #61dafb;
+.red-text {
+  color: var(--red-text)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blue-border {
+  border-top: 4px solid var(--facebook);
 }
+

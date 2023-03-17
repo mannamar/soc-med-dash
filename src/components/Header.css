@@ -1,0 +1,27 @@
+.title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding-top: 35px;
+    line-height: 35px;
+    font-size: 28px;
+}
+
+.subTitle {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    color: var(--gray-text);
+}
+
+.headCont {
+    max-width: 1110px;
+}
+
+.switchCont {
+    padding-top: 48px;
+}
+
+.switchText {
+    font-weight: 700;
+    color: var(--gray-text);
+}
