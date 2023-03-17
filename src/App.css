@@ -31,7 +31,7 @@
 
   --toggle-bg: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
   --toggle-cir: hsl(232, 19%, 15%);
-  --dark-text: white;
+  --dark-text: hsl(228, 34%, 66%);
 }
 
 body {
@@ -94,4 +94,12 @@ p {
   position: absolute;
   z-index: -1;
   border-radius: 0 0 25px 25px;
+}
+
+@media (hover: hover) {
+  .bigCard:hover,
+  .smallCard:hover {
+    background-color: hsl(228, 30%, 87%);
+    cursor: pointer;
+  }
 }
