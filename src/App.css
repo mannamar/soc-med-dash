@@ -14,6 +14,7 @@
   --card-bg: hsl(227, 47%, 96%);
   --gray-text: hsl(228, 12%, 44%);
   --ov-text: hsl(228, 12%, 44%);
+  --top-bg-color: hsl(225, 100%, 98%);
 }
 
 [data-theme="dark"] {
@@ -22,6 +23,7 @@
   --card-bg: hsl(228, 28%, 20%);
   --gray-text: hsl(228, 34%, 66%);
   --ov-text: white;
+  --top-bg-color: hsl(232, 19%, 15%);
 }
 
 body {
@@ -77,3 +79,10 @@ p {
   color: var(--text-color);
 }
 
+.bg-box {
+  background-color: var(--top-bg-color);
+  height: 245px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
