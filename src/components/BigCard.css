@@ -24,7 +24,7 @@
 }
 
 .folNum {
-    padding-top: 27px;
+    padding-top: 24px;
     font-family: 'Inter', sans-serif;
     font-size: 52px;
     line-height: 52px;
@@ -35,9 +35,9 @@
     padding-top: 10px;
     font-family: 'Inter', sans-serif;
     color: var(--gray-text);
-    letter-spacing: 4px;
-    font-size: 13px;
-    line-height: 13px;
+    letter-spacing: 5px;
+    font-size: 12px;
+    line-height: 12px;
 }
 
 .arrow {
