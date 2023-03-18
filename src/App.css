@@ -19,6 +19,7 @@
   --toggle-bg: black;
   --toggle-cir: hsl(225, 100%, 98%);
   --dark-text: hsl(228, 16%, 56%);
+  --dark-text-hover: hsl(228, 16%, 56%);
   --card-hov-bg: hsl(228, 29%, 90%);
 }
 
@@ -33,6 +34,7 @@
   --toggle-bg: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
   --toggle-cir: hsl(232, 19%, 15%);
   --dark-text: hsl(228, 34%, 66%);
+  --dark-text-hover: white;
   --card-hov-bg: hsl(230, 26%, 27%);
 }
 
@@ -103,5 +105,13 @@ p {
   .smallCard:hover {
     background-color: var(--card-hov-bg);
     cursor: pointer;
+  }
+
+  .slider:hover {
+    background-image: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  }
+
+  .toggle:hover + .switchText {
+    color: var(--dark-text-hover);
   }
 }

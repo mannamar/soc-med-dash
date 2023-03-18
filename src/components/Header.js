@@ -28,9 +28,9 @@ export default function Header() {
                 </div>
 
                 <hr></hr>
-                <div className="switchCont d-flex">
-                    <p className="switchText">Dark Mode</p>
+                <div className="switchCont d-flex flex-row-reverse">
                     <Switch function={toggleTheme} className="toggle"/>
+                    <p className="switchText">Dark Mode</p>
                 </div>
                 
             </Container> 
