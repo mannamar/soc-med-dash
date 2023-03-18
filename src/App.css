@@ -74,7 +74,7 @@ p {
 .ig-border::before {
   content: '';
   position: absolute;
-  top: 0; right: 4.3px; bottom: 5px; left: 4.3px;
+  top: 0; right: 4px; bottom: 208px; left: 4px;
   z-index: -1;
   margin: -4px; /* !importanté le french */
   border-radius: inherit; /* !importanté le french */
