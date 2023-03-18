@@ -20,7 +20,7 @@
   --toggle-cir: hsl(225, 100%, 98%);
   --dark-text: hsl(228, 16%, 56%);
   --dark-text-hover: hsl(228, 16%, 56%);
-  --card-hov-bg: hsl(228, 29%, 90%);
+  --card-hov-bg: rgba(225,227,240,255);
 }
 
 [data-theme="dark"] {
@@ -35,7 +35,7 @@
   --toggle-cir: hsl(232, 19%, 15%);
   --dark-text: hsl(228, 34%, 66%);
   --dark-text-hover: white;
-  --card-hov-bg: hsl(230, 26%, 27%);
+  --card-hov-bg: rgba(51,58,86,255);
 }
 
 body {
